@@ -1,6 +1,6 @@
-# LUCOS Landing Page
+# About this Project
 
-Single-page, mobile-first landing page for **Loyola University Chicago Operation Smile (LUCOS)**, designed for QR code access.
+Loyola University Chicago Operation Smile (LUCOS) is a student-led organization dedicated to supporting Operation Smile’s global mission to provide safe, high-quality surgical care for children and adults born with cleft conditions. This site serves as our fundraising and outreach platform.
 
 ## Video
 
