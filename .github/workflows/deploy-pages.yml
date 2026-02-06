@@ -33,4 +33,4 @@ jobs:
     environment: github-pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/deploy-pages@4
+      - uses: actions/deploy-pages@v4
