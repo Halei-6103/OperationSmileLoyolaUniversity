@@ -6,7 +6,6 @@ Loyola University Chicago Operation Smile (LUCOS) is a student-led organization 
 
 https://github.com/user-attachments/assets/da7dbf63-893b-424d-8649-cff9240fc087
 
-
 ## Run locally
 
 ```bash
