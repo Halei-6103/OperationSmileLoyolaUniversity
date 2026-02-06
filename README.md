@@ -2,6 +2,13 @@
 
 Single-page, mobile-first landing page for **Loyola University Chicago Operation Smile (LUCOS)**, designed for QR code access.
 
+## Video
+
+
+
+https://github.com/user-attachments/assets/da7dbf63-893b-424d-8649-cff9240fc087
+
+
 ## Run locally
 
 ```bash
