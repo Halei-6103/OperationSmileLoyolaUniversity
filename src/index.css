@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-body text-body-mobile text-loyola-maroon antialiased;
+    background-color: #ffffff;
+  }
+  /* Focus visible for accessibility */
+  a:focus-visible,
+  button:focus-visible {
+    @apply outline-2 outline-offset-2 outline-loyola-maroon;
+  }
+  /* Skip link: visible when focused */
+  .skip-link:focus {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    z-index: 50;
+    width: auto;
+    height: auto;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    border: 0;
+  }
+}
+
+@layer utilities {
+  .toast-enter {
+    animation: toast-in 0.25s ease-out forwards;
+  }
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

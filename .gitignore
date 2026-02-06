@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+*.tsbuildinfo
+
+# Local / IDE
+.env
+.env.local
+*.log
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional: zip source (uncomment if you don't want to track it)
+# zipfile/
