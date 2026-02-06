@@ -43,12 +43,12 @@ function App() {
         role="banner"
       >
         <img
-          src="/Loyola.svg"
+          src={`${import.meta.env.BASE_URL}Loyola.svg`}
           alt="Loyola University Chicago"
           className="h-10 w-auto max-w-[120px] object-contain"
         />
         <img
-          src="/operationSmile.svg"
+          src={`${import.meta.env.BASE_URL}operationSmile.svg`}
           alt="Operation Smile"
           className="h-10 w-auto max-w-[120px] object-contain"
         />
@@ -175,14 +175,14 @@ function App() {
           <div className="max-w-xl mx-auto space-y-4">
             <figure className="overflow-hidden rounded-[10px] border border-gray-200 bg-section-alt">
               <img
-                src="/images/image1.jpg"
+                src={`${import.meta.env.BASE_URL}images/image1.jpg`}
                 alt="LUCOS event photo 1"
                 className="w-full aspect-[4/3] object-cover"
               />
             </figure>
             <figure className="overflow-hidden rounded-[10px] border border-gray-200 bg-section-alt">
               <img
-                src="/images/image2.png"
+                src={`${import.meta.env.BASE_URL}images/image2.png`}
                 alt="LUCOS event photo 2"
                 className="w-full aspect-[4/3] object-cover"
               />
